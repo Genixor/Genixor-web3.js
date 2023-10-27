@@ -1501,6 +1501,9 @@ importers:
       '@solana/addresses':
         specifier: workspace:*
         version: link:../addresses
+      '@solana/instructions':
+        specifier: workspace:*
+        version: link:../instructions
       '@solana/keys':
         specifier: workspace:*
         version: link:../keys
