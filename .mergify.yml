@@ -25,7 +25,7 @@ pull_request_rules:
     actions:
       request_reviews:
         teams:
-          - '@solana-labs/community-pr-subscribers'
+          - '@Genixor-labs/community-pr-subscribers'
   - name: Automatic merge (squash) on CI success
     conditions:
       - and:
