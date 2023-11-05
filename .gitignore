@@ -21,6 +21,6 @@ yarn-error.log*
 # Sapling SCM
 .sl
 
-# `solana-test-validator`
-.solana/
+# `Genixor-test-validator`
+.Genixor/
 test-ledger/
