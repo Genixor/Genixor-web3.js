@@ -16,10 +16,10 @@ importers:
       '@commitlint/config-conventional':
         specifier: ^17.6.7
         version: 17.6.7
-      '@solana/eslint-config-solana':
+      '@Genixor/eslint-config-Genixor':
         specifier: ^1.0.2
         version: 1.0.2(@typescript-eslint/eslint-plugin@6.8.0)(@typescript-eslint/parser@6.8.0)(eslint-plugin-jest@27.4.2)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-simple-import-sort@10.0.0)(eslint-plugin-sort-keys-fix@1.1.2)(eslint@8.51.0)(typescript@5.2.2)
-      '@solana/prettier-config-solana':
+      '@Genixor/prettier-config-Genixor':
         specifier: ^0.0.3
         version: 0.0.3(prettier@3.0.3)
       commitlint:
@@ -34,17 +34,17 @@ importers:
 
   packages/addresses:
     dependencies:
-      '@solana/assertions':
+      '@Genixor/assertions':
         specifier: workspace:*
         version: link:../assertions
-      '@solana/codecs-core':
+      '@Genixor/codecs-core':
         specifier: workspace:*
         version: link:../codecs-core
-      '@solana/codecs-strings':
+      '@Genixor/codecs-strings':
         specifier: workspace:*
         version: link:../codecs-strings
     devDependencies:
-      '@solana/eslint-config-solana':
+      '@Genixor/eslint-config-Genixor':
         specifier: ^1.0.2
         version: 1.0.2(@typescript-eslint/eslint-plugin@6.7.0)(@typescript-eslint/parser@6.3.0)(eslint-plugin-jest@27.4.2)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-simple-import-sort@10.0.0)(eslint-plugin-sort-keys-fix@1.1.2)(eslint@8.45.0)(typescript@5.2.2)
       '@swc/jest':
@@ -107,7 +107,7 @@ importers:
 
   packages/assertions:
     devDependencies:
-      '@solana/eslint-config-solana':
+      '@Genixor/eslint-config-Genixor':
         specifier: ^1.0.2
         version: 1.0.2(@typescript-eslint/eslint-plugin@6.7.0)(@typescript-eslint/parser@6.3.0)(eslint-plugin-jest@27.4.2)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-simple-import-sort@10.0.0)(eslint-plugin-sort-keys-fix@1.1.2)(eslint@8.45.0)(typescript@5.2.2)
       '@swc/jest':
@@ -182,7 +182,7 @@ importers:
 
   packages/codecs-core:
     devDependencies:
-      '@solana/eslint-config-solana':
+      '@Genixor/eslint-config-Genixor':
         specifier: ^1.0.2
         version: 1.0.2(@typescript-eslint/eslint-plugin@6.7.0)(@typescript-eslint/parser@6.3.0)(eslint-plugin-jest@27.4.2)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-simple-import-sort@10.0.0)(eslint-plugin-sort-keys-fix@1.1.2)(eslint@8.45.0)(typescript@5.2.2)
       '@swc/jest':
@@ -245,17 +245,17 @@ importers:
 
   packages/codecs-data-structures:
     dependencies:
-      '@solana/codecs-core':
+      '@Genixor/codecs-core':
         specifier: workspace:*
         version: link:../codecs-core
-      '@solana/codecs-numbers':
+      '@Genixor/codecs-numbers':
         specifier: workspace:*
         version: link:../codecs-numbers
     devDependencies:
-      '@solana/codecs-strings':
+      '@Genixor/codecs-strings':
         specifier: workspace:*
         version: link:../codecs-strings
-      '@solana/eslint-config-solana':
+      '@Genixor/eslint-config-Genixor':
         specifier: ^1.0.2
         version: 1.0.2(@typescript-eslint/eslint-plugin@6.7.0)(@typescript-eslint/parser@6.3.0)(eslint-plugin-jest@27.4.2)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-simple-import-sort@10.0.0)(eslint-plugin-sort-keys-fix@1.1.2)(eslint@8.45.0)(typescript@5.2.2)
       '@swc/jest':
@@ -318,11 +318,11 @@ importers:
 
   packages/codecs-numbers:
     dependencies:
-      '@solana/codecs-core':
+      '@Genixor/codecs-core':
         specifier: workspace:*
         version: link:../codecs-core
     devDependencies:
-      '@solana/eslint-config-solana':
+      '@Genixor/eslint-config-Genixor':
         specifier: ^1.0.2
         version: 1.0.2(@typescript-eslint/eslint-plugin@6.7.0)(@typescript-eslint/parser@6.3.0)(eslint-plugin-jest@27.4.2)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-simple-import-sort@10.0.0)(eslint-plugin-sort-keys-fix@1.1.2)(eslint@8.45.0)(typescript@5.2.2)
       '@swc/jest':
@@ -385,17 +385,17 @@ importers:
 
   packages/codecs-strings:
     dependencies:
-      '@solana/codecs-core':
+      '@Genixor/codecs-core':
         specifier: workspace:*
         version: link:../codecs-core
-      '@solana/codecs-numbers':
+      '@Genixor/codecs-numbers':
         specifier: workspace:*
         version: link:../codecs-numbers
       fastestsmallesttextencoderdecoder:
         specifier: ^1.0.22
         version: 1.0.22
     devDependencies:
-      '@solana/eslint-config-solana':
+      '@Genixor/eslint-config-Genixor':
         specifier: ^1.0.2
         version: 1.0.2(@typescript-eslint/eslint-plugin@6.7.0)(@typescript-eslint/parser@6.3.0)(eslint-plugin-jest@27.4.2)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-simple-import-sort@10.0.0)(eslint-plugin-sort-keys-fix@1.1.2)(eslint@8.45.0)(typescript@5.2.2)
       '@swc/jest':
@@ -461,26 +461,26 @@ importers:
 
   packages/compat:
     dependencies:
-      '@solana/functional':
+      '@Genixor/functional':
         specifier: workspace:*
         version: link:../functional
-      '@solana/instructions':
+      '@Genixor/instructions':
         specifier: workspace:*
         version: link:../instructions
-      '@solana/transactions':
+      '@Genixor/transactions':
         specifier: workspace:*
         version: link:../transactions
     devDependencies:
-      '@solana/addresses':
+      '@Genixor/addresses':
         specifier: workspace:*
         version: link:../addresses
-      '@solana/eslint-config-solana':
+      '@Genixor/eslint-config-Genixor':
         specifier: ^1.0.2
         version: 1.0.2(@typescript-eslint/eslint-plugin@6.7.0)(@typescript-eslint/parser@6.3.0)(eslint-plugin-jest@27.4.2)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-simple-import-sort@10.0.0)(eslint-plugin-sort-keys-fix@1.1.2)(eslint@8.45.0)(typescript@5.2.2)
-      '@solana/keys':
+      '@Genixor/keys':
         specifier: workspace:*
         version: link:../keys
-      '@solana/web3.js':
+      '@Genixor/web3.js':
         specifier: workspace:*
         version: link:../library-legacy
       '@swc/jest':
@@ -543,7 +543,7 @@ importers:
 
   packages/fetch-impl:
     devDependencies:
-      '@solana/eslint-config-solana':
+      '@Genixor/eslint-config-Genixor':
         specifier: ^1.0.2
         version: 1.0.2(@typescript-eslint/eslint-plugin@6.7.0)(@typescript-eslint/parser@6.3.0)(eslint-plugin-jest@27.4.2)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-simple-import-sort@10.0.0)(eslint-plugin-sort-keys-fix@1.1.2)(eslint@8.45.0)(typescript@5.1.6)
       '@swc/jest':
@@ -600,7 +600,7 @@ importers:
 
   packages/functional:
     devDependencies:
-      '@solana/eslint-config-solana':
+      '@Genixor/eslint-config-Genixor':
         specifier: ^1.0.2
         version: 1.0.2(@typescript-eslint/eslint-plugin@6.7.0)(@typescript-eslint/parser@6.3.0)(eslint-plugin-jest@27.4.2)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-simple-import-sort@10.0.0)(eslint-plugin-sort-keys-fix@1.1.2)(eslint@8.45.0)(typescript@5.2.2)
       '@swc/jest':
@@ -660,10 +660,10 @@ importers:
 
   packages/instructions:
     devDependencies:
-      '@solana/addresses':
+      '@Genixor/addresses':
         specifier: workspace:*
         version: link:../addresses
-      '@solana/eslint-config-solana':
+      '@Genixor/eslint-config-Genixor':
         specifier: ^1.0.2
         version: 1.0.2(@typescript-eslint/eslint-plugin@6.7.0)(@typescript-eslint/parser@6.3.0)(eslint-plugin-jest@27.4.2)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-simple-import-sort@10.0.0)(eslint-plugin-sort-keys-fix@1.1.2)(eslint@8.45.0)(typescript@5.2.2)
       '@swc/jest':
@@ -720,11 +720,11 @@ importers:
 
   packages/keys:
     dependencies:
-      '@solana/assertions':
+      '@Genixor/assertions':
         specifier: workspace:*
         version: link:../assertions
     devDependencies:
-      '@solana/eslint-config-solana':
+      '@Genixor/eslint-config-Genixor':
         specifier: ^1.0.2
         version: 1.0.2(@typescript-eslint/eslint-plugin@6.7.0)(@typescript-eslint/parser@6.3.0)(eslint-plugin-jest@27.4.2)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-simple-import-sort@10.0.0)(eslint-plugin-sort-keys-fix@1.1.2)(eslint@8.45.0)(typescript@5.2.2)
       '@swc/jest':
@@ -787,38 +787,38 @@ importers:
 
   packages/library:
     dependencies:
-      '@solana/addresses':
+      '@Genixor/addresses':
         specifier: workspace:*
         version: link:../addresses
-      '@solana/codecs-strings':
+      '@Genixor/codecs-strings':
         specifier: workspace:*
         version: link:../codecs-strings
-      '@solana/functional':
+      '@Genixor/functional':
         specifier: workspace:*
         version: link:../functional
-      '@solana/instructions':
+      '@Genixor/instructions':
         specifier: workspace:*
         version: link:../instructions
-      '@solana/keys':
+      '@Genixor/keys':
         specifier: workspace:*
         version: link:../keys
-      '@solana/rpc-core':
+      '@Genixor/rpc-core':
         specifier: workspace:*
         version: link:../rpc-core
-      '@solana/rpc-transport':
+      '@Genixor/rpc-transport':
         specifier: workspace:*
         version: link:../rpc-transport
-      '@solana/rpc-types':
+      '@Genixor/rpc-types':
         specifier: workspace:*
         version: link:../rpc-types
-      '@solana/transactions':
+      '@Genixor/transactions':
         specifier: workspace:*
         version: link:../transactions
       fast-stable-stringify:
         specifier: ^1.0.0
         version: 1.0.0
     devDependencies:
-      '@solana/eslint-config-solana':
+      '@Genixor/eslint-config-Genixor':
         specifier: ^1.0.2
         version: 1.0.2(@typescript-eslint/eslint-plugin@6.7.0)(@typescript-eslint/parser@6.3.0)(eslint-plugin-jest@27.4.2)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-simple-import-sort@10.0.0)(eslint-plugin-sort-keys-fix@1.1.2)(eslint@8.45.0)(typescript@5.2.2)
       '@swc/jest':
@@ -890,7 +890,7 @@ importers:
       '@noble/hashes':
         specifier: ^1.3.1
         version: 1.3.1
-      '@solana/buffer-layout':
+      '@Genixor/buffer-layout':
         specifier: ^4.0.0
         version: 4.0.0
       agentkeepalive:
@@ -972,9 +972,9 @@ importers:
       '@rollup/plugin-terser':
         specifier: ^0.4.3
         version: 0.4.3(rollup@3.27.2)
-      '@solana/spl-token':
+      '@Genixor/spl-token':
         specifier: ^0.3.8
-        version: 0.3.8(@solana/web3.js@1.87.2)
+        version: 0.3.8(@Genixor/web3.js@1.87.2)
       '@types/bn.js':
         specifier: ^5.1.1
         version: 5.1.1
@@ -1101,14 +1101,14 @@ importers:
 
   packages/options:
     dependencies:
-      '@solana/codecs-core':
+      '@Genixor/codecs-core':
         specifier: workspace:*
         version: link:../codecs-core
-      '@solana/codecs-numbers':
+      '@Genixor/codecs-numbers':
         specifier: workspace:*
         version: link:../codecs-numbers
     devDependencies:
-      '@solana/eslint-config-solana':
+      '@Genixor/eslint-config-Genixor':
         specifier: ^1.0.2
         version: 1.0.2(@typescript-eslint/eslint-plugin@6.7.0)(@typescript-eslint/parser@6.3.0)(eslint-plugin-jest@27.4.2)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-simple-import-sort@10.0.0)(eslint-plugin-sort-keys-fix@1.1.2)(eslint@8.45.0)(typescript@5.2.2)
       '@swc/jest':
@@ -1171,25 +1171,25 @@ importers:
 
   packages/rpc-core:
     devDependencies:
-      '@solana/addresses':
+      '@Genixor/addresses':
         specifier: workspace:*
         version: link:../addresses
-      '@solana/codecs-core':
+      '@Genixor/codecs-core':
         specifier: workspace:*
         version: link:../codecs-core
-      '@solana/codecs-strings':
+      '@Genixor/codecs-strings':
         specifier: workspace:*
         version: link:../codecs-strings
-      '@solana/eslint-config-solana':
+      '@Genixor/eslint-config-Genixor':
         specifier: ^1.0.2
         version: 1.0.2(@typescript-eslint/eslint-plugin@6.7.0)(@typescript-eslint/parser@6.3.0)(eslint-plugin-jest@27.4.2)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-simple-import-sort@10.0.0)(eslint-plugin-sort-keys-fix@1.1.2)(eslint@8.45.0)(typescript@5.2.2)
-      '@solana/rpc-transport':
+      '@Genixor/rpc-transport':
         specifier: workspace:*
         version: link:../rpc-transport
-      '@solana/rpc-types':
+      '@Genixor/rpc-types':
         specifier: workspace:*
         version: link:../rpc-types
-      '@solana/transactions':
+      '@Genixor/transactions':
         specifier: workspace:*
         version: link:../transactions
       '@swc/jest':
@@ -1259,22 +1259,22 @@ importers:
         specifier: ^16.8.0
         version: 16.8.1
     devDependencies:
-      '@solana/addresses':
+      '@Genixor/addresses':
         specifier: workspace:*
         version: link:../addresses
-      '@solana/eslint-config-solana':
+      '@Genixor/eslint-config-Genixor':
         specifier: ^1.0.2
         version: 1.0.2(@typescript-eslint/eslint-plugin@6.7.0)(@typescript-eslint/parser@6.3.0)(eslint-plugin-jest@27.4.2)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-simple-import-sort@10.0.0)(eslint-plugin-sort-keys-fix@1.1.2)(eslint@8.45.0)(typescript@5.2.2)
-      '@solana/rpc-core':
+      '@Genixor/rpc-core':
         specifier: workspace:*
         version: link:../rpc-core
-      '@solana/rpc-transport':
+      '@Genixor/rpc-transport':
         specifier: workspace:*
         version: link:../rpc-transport
-      '@solana/rpc-types':
+      '@Genixor/rpc-types':
         specifier: workspace:*
         version: link:../rpc-types
-      '@solana/transactions':
+      '@Genixor/transactions':
         specifier: workspace:*
         version: link:../transactions
       '@swc/jest':
@@ -1344,7 +1344,7 @@ importers:
         specifier: ^8.14.0
         version: 8.14.0
     devDependencies:
-      '@solana/eslint-config-solana':
+      '@Genixor/eslint-config-Genixor':
         specifier: ^1.0.2
         version: 1.0.2(@typescript-eslint/eslint-plugin@6.7.0)(@typescript-eslint/parser@6.3.0)(eslint-plugin-jest@27.4.2)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-simple-import-sort@10.0.0)(eslint-plugin-sort-keys-fix@1.1.2)(eslint@8.45.0)(typescript@5.2.2)
       '@swc/jest':
@@ -1425,10 +1425,10 @@ importers:
 
   packages/rpc-types:
     devDependencies:
-      '@solana/eslint-config-solana':
+      '@Genixor/eslint-config-Genixor':
         specifier: ^1.0.2
         version: 1.0.2(@typescript-eslint/eslint-plugin@6.8.0)(@typescript-eslint/parser@6.8.0)(eslint-plugin-jest@27.4.2)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-simple-import-sort@10.0.0)(eslint-plugin-sort-keys-fix@1.1.2)(eslint@8.51.0)(typescript@5.2.2)
-      '@solana/transactions':
+      '@Genixor/transactions':
         specifier: workspace:*
         version: link:../transactions
       '@swc/jest':
@@ -1544,7 +1544,7 @@ importers:
         specifier: ^1.0.22
         version: 1.0.22
     devDependencies:
-      '@solana/eslint-config-solana':
+      '@Genixor/eslint-config-Genixor':
         specifier: ^1.0.2
         version: 1.0.2(@typescript-eslint/eslint-plugin@6.7.0)(@typescript-eslint/parser@6.3.0)(eslint-plugin-jest@27.4.2)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-simple-import-sort@10.0.0)(eslint-plugin-sort-keys-fix@1.1.2)(eslint@8.45.0)(typescript@5.2.2)
       '@swc/jest':
@@ -1604,32 +1604,32 @@ importers:
 
   packages/transactions:
     dependencies:
-      '@solana/addresses':
+      '@Genixor/addresses':
         specifier: workspace:*
         version: link:../addresses
-      '@solana/codecs-core':
+      '@Genixor/codecs-core':
         specifier: workspace:*
         version: link:../codecs-core
-      '@solana/codecs-data-structures':
+      '@Genixor/codecs-data-structures':
         specifier: workspace:*
         version: link:../codecs-data-structures
-      '@solana/codecs-numbers':
+      '@Genixor/codecs-numbers':
         specifier: workspace:*
         version: link:../codecs-numbers
-      '@solana/codecs-strings':
+      '@Genixor/codecs-strings':
         specifier: workspace:*
         version: link:../codecs-strings
-      '@solana/functional':
+      '@Genixor/functional':
         specifier: workspace:*
         version: link:../functional
-      '@solana/keys':
+      '@Genixor/keys':
         specifier: workspace:*
         version: link:../keys
     devDependencies:
-      '@solana/eslint-config-solana':
+      '@Genixor/eslint-config-Genixor':
         specifier: ^1.0.2
         version: 1.0.2(@typescript-eslint/eslint-plugin@6.7.0)(@typescript-eslint/parser@6.3.0)(eslint-plugin-jest@27.4.2)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-simple-import-sort@10.0.0)(eslint-plugin-sort-keys-fix@1.1.2)(eslint@8.45.0)(typescript@5.2.2)
-      '@solana/instructions':
+      '@Genixor/instructions':
         specifier: workspace:*
         version: link:../instructions
       '@swc/jest':
@@ -1698,7 +1698,7 @@ importers:
         specifier: ^1.2.0
         version: 1.2.0
     devDependencies:
-      '@solana/eslint-config-solana':
+      '@Genixor/eslint-config-Genixor':
         specifier: ^1.0.2
         version: 1.0.2(@typescript-eslint/eslint-plugin@6.7.0)(@typescript-eslint/parser@6.3.0)(eslint-plugin-jest@27.4.2)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-simple-import-sort@10.0.0)(eslint-plugin-sort-keys-fix@1.1.2)(eslint@8.45.0)(typescript@5.2.2)
       '@swc/jest':
@@ -1762,7 +1762,7 @@ importers:
         specifier: ^8.14.0
         version: 8.14.0
     devDependencies:
-      '@solana/eslint-config-solana':
+      '@Genixor/eslint-config-Genixor':
         specifier: ^1.0.2
         version: 1.0.2(@typescript-eslint/eslint-plugin@6.7.0)(@typescript-eslint/parser@6.3.0)(eslint-plugin-jest@27.4.2)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-simple-import-sort@10.0.0)(eslint-plugin-sort-keys-fix@1.1.2)(eslint@8.45.0)(typescript@5.1.6)
       '@swc/jest':
@@ -4574,12 +4574,12 @@ packages:
     resolution: {integrity: sha512-sXXKG+uL9IrKqViTtao2Ws6dy0znu9sOaP1di/jKGW1M6VssO8vlpXCQcpZ+jisQ1tTFAC5Jo/EOzFbggBagFQ==}
     dev: true
 
-  /@solana/buffer-layout-utils@0.2.0:
+  /@Genixor/buffer-layout-utils@0.2.0:
     resolution: {integrity: sha512-szG4sxgJGktbuZYDg2FfNmkMi0DYQoVjN2h7ta1W1hPrwzarcFLBq9UpX1UjNXsNpT9dn+chgprtWGioUAr4/g==}
     engines: {node: '>= 10'}
     dependencies:
-      '@solana/buffer-layout': 4.0.0
-      '@solana/web3.js': 1.77.3
+      '@Genixor/buffer-layout': 4.0.0
+      '@Genixor/web3.js': 1.77.3
       bigint-buffer: 1.1.5
       bignumber.js: 9.1.1
     transitivePeerDependencies:
@@ -4589,20 +4589,20 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@solana/buffer-layout@4.0.0:
+  /@Genixor/buffer-layout@4.0.0:
     resolution: {integrity: sha512-lR0EMP2HC3+Mxwd4YcnZb0smnaDw7Bl2IQWZiTevRH5ZZBZn6VRWn3/92E3qdU4SSImJkA6IDHawOHAnx/qUvQ==}
     engines: {node: '>=5.10'}
     dependencies:
       buffer: 6.0.3
 
-  /@solana/buffer-layout@4.0.1:
+  /@Genixor/buffer-layout@4.0.1:
     resolution: {integrity: sha512-E1ImOIAD1tBZFRdjeM4/pzTiTApC0AOBGwyAMS4fwIodCWArzJ3DWdoh8cKxeFM2fElkxBh2Aqts1BPC373rHA==}
     engines: {node: '>=5.10'}
     dependencies:
       buffer: 6.0.3
     dev: true
 
-  /@solana/eslint-config-solana@1.0.2(@typescript-eslint/eslint-plugin@6.7.0)(@typescript-eslint/parser@6.3.0)(eslint-plugin-jest@27.4.2)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-simple-import-sort@10.0.0)(eslint-plugin-sort-keys-fix@1.1.2)(eslint@8.45.0)(typescript@5.1.6):
+  /@Genixor/eslint-config-Genixor@1.0.2(@typescript-eslint/eslint-plugin@6.7.0)(@typescript-eslint/parser@6.3.0)(eslint-plugin-jest@27.4.2)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-simple-import-sort@10.0.0)(eslint-plugin-sort-keys-fix@1.1.2)(eslint@8.45.0)(typescript@5.1.6):
     resolution: {integrity: sha512-/mBi2xFsX0fq3ukZ3ugA+Zh2+Ct+bh713ZSdOJAv1G7ARzyOEDxmiUz8TLzHu4joOC/3Ok4Yl7cjupOcIRzMHw==}
     peerDependencies:
       '@typescript-eslint/eslint-plugin': ^6.0.0
@@ -4624,7 +4624,7 @@ packages:
       typescript: 5.1.6
     dev: true
 
-  /@solana/eslint-config-solana@1.0.2(@typescript-eslint/eslint-plugin@6.7.0)(@typescript-eslint/parser@6.3.0)(eslint-plugin-jest@27.4.2)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-simple-import-sort@10.0.0)(eslint-plugin-sort-keys-fix@1.1.2)(eslint@8.45.0)(typescript@5.2.2):
+  /@Genixor/eslint-config-Genixor@1.0.2(@typescript-eslint/eslint-plugin@6.7.0)(@typescript-eslint/parser@6.3.0)(eslint-plugin-jest@27.4.2)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-simple-import-sort@10.0.0)(eslint-plugin-sort-keys-fix@1.1.2)(eslint@8.45.0)(typescript@5.2.2):
     resolution: {integrity: sha512-/mBi2xFsX0fq3ukZ3ugA+Zh2+Ct+bh713ZSdOJAv1G7ARzyOEDxmiUz8TLzHu4joOC/3Ok4Yl7cjupOcIRzMHw==}
     peerDependencies:
       '@typescript-eslint/eslint-plugin': ^6.0.0
@@ -4646,7 +4646,7 @@ packages:
       typescript: 5.2.2
     dev: true
 
-  /@solana/eslint-config-solana@1.0.2(@typescript-eslint/eslint-plugin@6.8.0)(@typescript-eslint/parser@6.8.0)(eslint-plugin-jest@27.4.2)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-simple-import-sort@10.0.0)(eslint-plugin-sort-keys-fix@1.1.2)(eslint@8.51.0)(typescript@5.2.2):
+  /@Genixor/eslint-config-Genixor@1.0.2(@typescript-eslint/eslint-plugin@6.8.0)(@typescript-eslint/parser@6.8.0)(eslint-plugin-jest@27.4.2)(eslint-plugin-react-hooks@4.6.0)(eslint-plugin-simple-import-sort@10.0.0)(eslint-plugin-sort-keys-fix@1.1.2)(eslint@8.51.0)(typescript@5.2.2):
     resolution: {integrity: sha512-/mBi2xFsX0fq3ukZ3ugA+Zh2+Ct+bh713ZSdOJAv1G7ARzyOEDxmiUz8TLzHu4joOC/3Ok4Yl7cjupOcIRzMHw==}
     peerDependencies:
       '@typescript-eslint/eslint-plugin': ^6.0.0
@@ -4668,7 +4668,7 @@ packages:
       typescript: 5.2.2
     dev: true
 
-  /@solana/prettier-config-solana@0.0.3(prettier@3.0.3):
+  /@Genixor/prettier-config-Genixor@0.0.3(prettier@3.0.3):
     resolution: {integrity: sha512-69lOncqTcp7Q/yQIU7R4/nQ6Ejir0TlYiUMcOM/z1PHsiDRF6qL+Jzfy8J9j5euDAR5VCoh0kM5lzaB/sdWgCA==}
     peerDependencies:
       prettier: ^3.0.2
@@ -4676,15 +4676,15 @@ packages:
       prettier: 3.0.3
     dev: true
 
-  /@solana/spl-token@0.3.8(@solana/web3.js@1.87.2):
+  /@Genixor/spl-token@0.3.8(@Genixor/web3.js@1.87.2):
     resolution: {integrity: sha512-ogwGDcunP9Lkj+9CODOWMiVJEdRtqHAtX2rWF62KxnnSWtMZtV9rDhTrZFshiyJmxDnRL/1nKE1yJHg4jjs3gg==}
     engines: {node: '>=16'}
     peerDependencies:
-      '@solana/web3.js': ^1.47.4
+      '@Genixor/web3.js': ^1.47.4
     dependencies:
-      '@solana/buffer-layout': 4.0.0
-      '@solana/buffer-layout-utils': 0.2.0
-      '@solana/web3.js': 1.87.2
+      '@Genixor/buffer-layout': 4.0.0
+      '@Genixor/buffer-layout-utils': 0.2.0
+      '@Genixor/web3.js': 1.87.2
       buffer: 6.0.3
     transitivePeerDependencies:
       - bufferutil
@@ -4693,13 +4693,13 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@solana/web3.js@1.77.3:
+  /@Genixor/web3.js@1.77.3:
     resolution: {integrity: sha512-PHaO0BdoiQRPpieC1p31wJsBaxwIOWLh8j2ocXNKX8boCQVldt26Jqm2tZE4KlrvnCIV78owPLv1pEUgqhxZ3w==}
     dependencies:
       '@babel/runtime': 7.23.2
       '@noble/curves': 1.2.0
       '@noble/hashes': 1.3.2
-      '@solana/buffer-layout': 4.0.0
+      '@Genixor/buffer-layout': 4.0.0
       agentkeepalive: 4.3.0
       bigint-buffer: 1.1.5
       bn.js: 5.2.1
@@ -4718,13 +4718,13 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@solana/web3.js@1.87.2:
+  /@Genixor/web3.js@1.87.2:
     resolution: {integrity: sha512-TZNhS+tvJbYjm0LAvIkUy/3Aqgt2l6/3X6XsVUpvj5MGOl2Q6Ch8hYSxcUUtMbAFNN3sUXmV8NhhMLNJEvI6TA==}
     dependencies:
       '@babel/runtime': 7.23.2
       '@noble/curves': 1.2.0
       '@noble/hashes': 1.3.2
-      '@solana/buffer-layout': 4.0.1
+      '@Genixor/buffer-layout': 4.0.1
       agentkeepalive: 4.5.0
       bigint-buffer: 1.1.5
       bn.js: 5.2.1
