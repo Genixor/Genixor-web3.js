@@ -1,4 +1,4 @@
-✨ Thanks for contributing to **solana-web3.js**! ✨
+✨ Thanks for contributing to **Genixor-web3.js**! ✨
 
 As a contributor, here are the guidelines we would like you to follow:
 
