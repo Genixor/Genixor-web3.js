@@ -15,8 +15,8 @@
     },
     "devDependencies": {
         "@commitlint/config-conventional": "^17.6.7",
-        "@solana/eslint-config-solana": "^1.0.2",
-        "@solana/prettier-config-solana": "^0.0.3",
+        "@Genixor/eslint-config-Genixor": "^1.0.2",
+        "@Genixor/prettier-config-Genixor": "^0.0.3",
         "commitlint": "^17.6.7",
         "eslint-config-turbo": "^1.10.13",
         "turbo": "^1.10.14"
@@ -32,5 +32,5 @@
             "shelljs": ">=0.8.5"
         }
     },
-    "prettier": "@solana/prettier-config-solana"
+    "prettier": "@Genixor/prettier-config-Genixor"
 }
