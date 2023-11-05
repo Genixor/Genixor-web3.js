@@ -1,4 +1,4 @@
 module.exports = {
-    extends: ['turbo', '@solana/eslint-config-solana', '@solana/eslint-config-solana/jest'],
+    extends: ['turbo', '@Genixor/eslint-config-Genixor', '@Genixor/eslint-config-Genixor/jest'],
     root: true,
 };
